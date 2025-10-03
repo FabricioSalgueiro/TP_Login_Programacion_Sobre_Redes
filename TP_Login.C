@@ -5,14 +5,12 @@
 #define PASS_VALIDA "91218"
 #define LARGO_MAXIMO 50
 
-
 int validarCredenciales(char emailIngresado[], char passIngresada[]) {
     int coincidencia_mail;
     int coincidencia_pass;
 
     coincidencia_mail = strcmp(emailIngresado, CORREO_ELECTRONICO);
     coincidencia_pass = strcmp(passIngresada, PASS_VALIDA);
-
 
     if (coincidencia_mail == 0 && coincidencia_pass == 0) {
         return 1; // Credenciales validas
