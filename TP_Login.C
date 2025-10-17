@@ -13,9 +13,10 @@ int validarCredenciales(char emailIngresado[], char passIngresada[]) {
     coincidencia_pass = strcmp(passIngresada, PASS_VALIDA);
 
     if (coincidencia_mail == 0 && coincidencia_pass == 0) {
-        return 1; // Credenciales validas
+        return 1; 
+
     } else {
-        return 0; // Credenciales invalidas
+        return 0; 
     }
 }
 
