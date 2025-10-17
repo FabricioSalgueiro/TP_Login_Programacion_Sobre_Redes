@@ -23,7 +23,7 @@ int validarCredenciales(char emailIngresado[], char passIngresada[]) {
 int main() {
     char mail_usuario[LARGO_MAXIMO];
     char clave_usuario[LARGO_MAXIMO];
-    int acceso_permitido = 0; // Variable bandera, 0 = denegado, 1 = permitido
+    int acceso_permitido = 0; 
 
     printf("\nSistema de Autenticacion Simple\n");
     printf("--------------------------------\n");
